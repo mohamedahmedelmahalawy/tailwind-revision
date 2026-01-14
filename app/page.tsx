@@ -1,5 +1,12 @@
-import Image from "next/image";
+import Features from "@/components/features/Features";
 
 export default function Home() {
-  return <h1>Hi</h1>;
+  console.log("hi");
+  console.log(23);
+
+  return (
+    <>
+      <Features />
+    </>
+  );
 }
